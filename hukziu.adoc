@@ -3,9 +3,7 @@
 :toc-placement!:
 :toc-title: 目录
 
-|===
-
-|===
+本册为市区福州话分册，表示的是福州市区一带的平话（即闽东语）。参见 link:main.adoc[**主方案**]。
 
 NOTE: 闽东语拼音方案尚初于初稿阶段，可能随时作出改动。笔者在此将拼音方案白皮书的初稿发布至网络，供小范围传阅及吸收批评意见。 
 --子善
@@ -45,7 +43,7 @@ toc::[]
 === 韵母
 [options="header,footer,autowidth"]
 |===
-| 戚林八音字母 | 国际音标 | 闽东语拼音 | 例字
+| 戚林八音字母 | 国际音标 | 闽东语拼音 footnote:[“/”前为紧韵，后为松韵。] | 例字
 4+| 阴声韵
 | 嘉 | [a] | a | 家ga¹
 | 奇 | [ia] | ia | 车cia¹
@@ -54,9 +52,9 @@ toc::[]
 | 开 | [ai] | ai | 带dai³
 | 郊 | [au] | au | 包bau¹
 | 歌 | [o]/ [ɔ] | o/ oo | 歌go¹/ 去koo³
-| 桥 | [yo] | yo  | 茄gyo⁵
+| 桥 | [yo] | yo footnote:[新派发为yeo [yø\]。] | 茄 gyo⁵
 | 过 | [uo] | uo | 课kuo³
-| 催 | [øy]/ [ɔy] | eoy/ ooy  | 堆deoy¹/ 对dooy³
+| 催 | [øy]/ [ɔy] | eoy/ ooy footnote:[新派ooy发为uai [uai\]。] | 堆deoy¹/ 对dooy³
 | 初 | [ø]/ [ɔ] | eo/ oo | 初ceo¹/ 𢯽coo³
 | 西 | [e]/ [a] | e/ a | 西se¹/ 细sa³
 | 鸡 | [ie] | ie | 批pie¹
@@ -71,7 +69,7 @@ toc::[]
 | 声 | [iaŋ] | iang | 惊giang¹
 | 欢 | [uaŋ] | uang | 碗uang²
 | 釭 | [ouŋ]/ [ɔuŋ] | oung/ ooung | 讲ɡoung²/ 困kooung³
-| 香 | [yoŋ] | yong  | 养yong²
+| 香 | [yoŋ] | yong footnote:[新派发为yeong [yøŋ\]。] | 养yong²
 | 光 | [uoŋ] | uong | 远huong⁷
 | 东 | [øyŋ]/ [ɔyŋ] | eoyng/ ooyng | 江geoyng¹/ 共gooyng⁷
 | 灯 | [eiŋ]/ [aiŋ] | eing/ aing | 点deing²/ 店daing³
@@ -80,7 +78,9 @@ toc::[]
 | 春 | [uŋ]/ [ouŋ] | ung/ oung | 总zung²/ 俊zoung³
 | 银 | [yŋ]/ [øyŋ] | yng/ eoyng | 榕yng⁵/ 颂seoyng⁷
 4+| 入声韵
-| 嘉（入声） .2+| [aʔ]  | ah  | 客 kah⁴
+| 嘉（入声） .2+| [aʔ]  
+| ah footnote:[入声h与入声k，只有部分老年人可以分辨。因而，对于大部分市区人来说，在上表同一方框内的韵没有对立。然而，入声h与入声k所引发的变调是不同的，因此拼音在书写上仍作出形态音系上的区分。]
+| 客 kah⁴
 | 山（入声）            | ak  | 恰 kak⁴
 | 奇（入声） .2+| [iaʔ] | iah | 壁 biah⁴
 | 声（入声）            | iak | 眨 tiak⁴
@@ -88,7 +88,7 @@ toc::[]
 | 欢（入声）            | uak | 活 uak⁸
 | 歌（入声）    | [oʔ]/[ɔʔ] | oh/ooh | 学 oh⁸/ 臒 ooh⁴
 | 釭（入声）    | [ouʔ]/[ɔuʔ] | ouk/oouk | 滑 gouk⁸ / 骨 goouk⁴
-| 桥（入声） .2+| [yoʔ] | yoh | 药 yoh⁸
+| 桥（入声） .2+| [yoʔ] | yoh footnote:[新派发为yeoh、yeok [yøʔ\]。] | 药 yoh⁸
 | 香（入声）            | yok | 弱 yok⁸
 | 过（入声） .2+| [uoʔ] | uoh | 沃 uoh⁴
 | 光（入声）            | uok | 越 uok⁸
@@ -99,16 +99,39 @@ toc::[]
 | 鸡（入声） .2+| [ieʔ] | ieh | 乜 mieh⁴
 | 声（入声）            | iek | 铁 tiek⁴
 | 之（入声） .2+| [iʔ]/[eiʔ]  | ih/ eih | 挃 dih⁸/ 㲺 ceih⁴
-| 宾（入声）                  | ik/ eik	| 习sik⁸/ 式 seik⁴
-| 孤（入声） .2+| [uʔ]/ [ouʔ] | uh/ ouh | 𠠔tuh⁸/ 𢬳 touh⁴
-| 春（入声）                  | uk/ ouk	| 独duk⁸/ 涿 douk⁴
+| 宾（入声）                  | ik/ eik	| 习 sik⁸/ 式 seik⁴
+| 孤（入声） .2+| [uʔ]/ [ouʔ] | uh/ ouh | 𠠔 tuh⁸/ 𢬳 touh⁴
+| 春（入声）                  | uk/ ouk	| 独 duk⁸/ 涿 douk⁴
 | 须（入声） .2+| [yʔ]/ [øyʔ] | yh/ eoyh | 无字 / 喐 eoyh⁴
 | 银（入声）                  | yk/ eoyk | 熟 syk⁸/ 肃 seoyk⁴
 4+|
 |===
 
-
 === 声调符号
+
+单字声调
+
+[options="header,footer,autowidth"]
+|===
+调类	上平	上上	上去	上入	下平	下上 	下去	下入	轻声
+数字	a¹	a²	a³	ah⁴	a⁵	--	a⁷	ah⁸	a⁰
+五度	a⁵⁵	a³³	a²¹³	ah²³	a⁵³	--	a²⁴²	ah⁵	a⁰
+例字
+|===
+
+连读时产生的新声调
+
+[options="header,footer,autowidth"]
+|===
+调类	--	--
+数字	--	--
+五度	a²¹	a²⁴
+例字	无赚 mo²¹-lang²⁴²	本底 buong²⁴-ne³³
+|===
+
+请注意：闽东语拼音方案默认使用数字标示法，在需要表现具体音值时，可以使用五度标记法。但是五度标记法并不是一个可以极确切表示具体音高的方法。在每个数字的取舍上，是有争议的。我们在这里统一以陈泽平（2015）的记录为准，这是为了方便教学。
+
+=== 连读系统
 
 == 参考文献
 
@@ -118,3 +141,14 @@ toc::[]
 * 《福州方言研究》
 * 《19世纪以来的福州方言》
 * 《福州方言的结构与演变》
+
+
+== 附录: 名词解释
+
+松韵/紧韵:
+
+字母: 《戚林八音》中的声母或韵母代表字头。
+
+新派:
+
+老派:
