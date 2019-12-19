@@ -171,7 +171,7 @@ WARNING: 请注意：闽东语拼音方案默认使用数字标示法，在需�
 | k                         | 不变          | 决定 gyok⁴-diang⁷
 | 元音或h  .3+^.^| z、c      | j footnote:[j与nj遇到介音i与y时，可以脱落。如“小姐”siu²-ia²。] | 胰皂 i⁵-joo⁷
 | ng                        | nj           | 蕹菜 ung³-njai³
-| k                         | 不变          | 仈字 beit⁴-zei⁷
+| k                         | 不变          | 仈字 beik⁴-zei⁷
 | 元音或h  .3+^.^| g、k、h
 
 和
