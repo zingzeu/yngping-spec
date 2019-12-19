@@ -66,7 +66,7 @@ toc::[]
 | 孤 | [u]/ [ou] | u/ ou | 乌u¹/ 有ou⁷
 | 辉、杯 | [ui] | ui | 肥bui⁵、飞bui¹
 | 须 | [y]/ [øy] | y/ eoy | 猪dy¹/ 箸deoy⁷
-4+|阳声韵
+4+| 阳声韵
 | 山 | [aŋ] | ang | 郑dang⁷
 | 声 | [iaŋ] | iang | 惊giang¹
 | 欢 | [uaŋ] | uang | 碗uang²
@@ -104,6 +104,7 @@ toc::[]
 | 春（入声）                  | uk/ ouk	| 独duk⁸/ 涿 douk⁴
 | 须（入声） .2+| [yʔ]/ [øyʔ] | yh/ eoyh | 无字 / 喐 eoyh⁴
 | 银（入声）                  | yk/ eoyk | 熟 syk⁸/ 肃 seoyk⁴
+4+|
 |===
 
 
