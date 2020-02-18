@@ -104,10 +104,10 @@ toc::[]
 | 春（入声）                  | uk/ ouk	| 独 duk⁸/ 涿 douk⁴
 | 须（入声） .2+| yʔ/ øyʔ | yh/ eoyh | 无字 / 喐 eoyh⁴
 | 银（入声）                  | yk/ eoyk | 熟 syk⁸/ 肃 seoyk⁴
-|===
 4+| 伓
 | 伓 | ŋ | ng | 伓去ng⁷-oo³
 | 伓 | iŋ/ eiŋ | ing/eing | 伓去ing⁷-oo³
+|===
 === 声调符号
 
 单字声调
