@@ -1,7 +1,7 @@
 site:
-  title: 榕拼规范
+  title: 榕拼
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://antora.gitlab.io/demo/docs-site
+  url: https://yngping-spec.zingzeu.org/
   start_page: spec:ROOT:main.adoc
 content:
   sources:
@@ -12,3 +12,4 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  supplemental_files: ./ui-overrides
