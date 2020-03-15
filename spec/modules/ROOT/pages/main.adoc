@@ -3,12 +3,7 @@
 :toc-placement!:
 :toc-title: 目录
 
-方案版本: 0.4.0-preview2
-
-修订时间: 2020 年 2 月 18 日
-
-NOTE: 闽东语拼音方案尚初于初稿阶段，可能随时作出改动。笔者在此将拼音方案白皮书的初稿发布至网络，供小范围传阅及吸收批评意见。 
---子善
+include::_common_header.adoc[]
 
 toc::[]
 
@@ -151,7 +146,7 @@ NOTE: 虽然闽东语拼音方案可以用来表示本字音和表层音(surface
 
 == 使用例
 
-==== 福州市区腔
+=== 福州市区腔
 
 ```
 zing¹-njeu²-iang²/ doouk⁴ bo¹-wo¹
@@ -165,7 +160,7 @@ si⁷-nu⁵ buk⁴-lo² teoyng¹-leoyng⁵-ngo¹
 ```
 （民谣《真鸟囝》节选）
 
-==== 福清城关腔
+=== 福清城关腔
 
 ```
 sang¹-zia³ zi²-muai³ pe⁵-pe⁵-iang⁵
@@ -179,7 +174,7 @@ oi³-sia¹ to⁵-li² neng⁷-ua¹-miang⁵
 ```
 （民谣《十二月花》节选）
 
-==== 诗巫市区腔
+=== 诗巫市区腔
 ```
 gu⁷-le² u⁷-soh⁸-lau⁵ dy¹-mo²
 旧底有蜀头猪母，
