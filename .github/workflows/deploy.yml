@@ -20,7 +20,8 @@ jobs:
         npm i -g @antora/cli@2.2 \
           @antora/site-generator-default@2.2
     - name: Build
-      run: antora generate antora-playbook.yml
+      run: |
+        antora generate antora-playbook.yml
     # - name: GitHub Pages Deploy | 部署
     #   uses: maxheld83/ghpages@v0.2.1
     #   env:
