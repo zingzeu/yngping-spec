@@ -1,5 +1,6 @@
 name: 生成并部署网站
 
+on: [pull_request]
 #on: 
 #  push: 
 #    branches:
