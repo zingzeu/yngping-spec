@@ -1,0 +1,20 @@
+site_name: 榕拼规范文档
+site_url: https://yngping-spec.zingzeu.org/
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  language: 'zh'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+markdown_extensions:
+  - pymdownx.superfences
+# 以下是目录/导航栏结构
+# 详见 https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
+nav:
+  - 'index.md'
+  - 手册内容:  # 可以创建没有实际页面的目录层级
+    - test01.md
+    - '第 2 课': test02.md # 可以这样覆盖页面标题，
+                          # 有空格的地方要用英文单引号包起
+  # 此处没有列出的文件，不会在导航栏中出现，但还是可以直接通过网址/链接访问。
