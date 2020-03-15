@@ -1,0 +1,318 @@
+= 闽东语拼音方案规范 （福州市区）
+:toc:
+:toc-placement!:
+:toc-title: 目录
+
+include::_common_header.adoc[]
+
+toc::[]
+
+== 市区福州话音系概述
+
+=== 声母
+
+单字声母
+
+[options="header,footer,autowidth"]
+|===
+| 戚林八音字母 | 国际音标 | 闽东语拼音 | 例字
+4+| 单字声母
+| 边 | p | b | 飞 bui¹
+| 波 | pʰ | p | 鼻pei³
+| 蒙 | m | m | 无mo⁵
+| 底 | t | d | 大duai⁷
+| 他 | tʰ | t | 头tau⁵
+| 日 | n | n | 汝ny²
+| 柳 | l | l | 来li⁵
+| 时 | s | s | 是sei⁷
+| 曾 | ʦ | z | 做zoo³
+| 出 | ʦʰ | c | 厝cuo³
+| 求 | k | g | 哥ɡo¹
+| 气 | kʰ | k | 开kui¹
+| 语 | ŋ | ng | 我nguai²
+| 喜 | h | h | 好ho²
+4+| 连读时产生的新声母
+| -- | β | w | 花瓶hua¹-wing⁵
+| -- | ɾ | l | 无赚mo⁵-lang⁷
+| -- | z | j | 胰皂i⁵-joo⁷
+| -- | nz | nj | 蕹菜ung³-njai³
+|===
+=== 韵母
+[options="header,autowidth"]
+|===
+| 戚林八音字母 | 国际音标 | 闽东语拼音 footnote:[“/”前为紧韵，后为松韵。] | 例字
+4+| 阴声韵
+| 嘉 | a | a | 家ga¹
+| 奇 | ia | ia | 车cia¹
+| 花 | ua | ua | 瓜gua¹
+| 歪 | uai | uai | 我nguai²
+| 开 | ai | ai | 带dai³
+| 郊 | au | au | 包bau¹
+| 歌 | o/ ɔ | o/ oo | 歌go¹/ 号hoo⁷
+| 桥 | yo | yo footnote:[新派发为yeo [yø\]。] | 茄 gyo⁵
+| 过 | uo | uo | 课kuo³
+| 催 | øy/ ɔy | eoy/ ooy footnote:[新派ooy发为uai [uai\]。] | 堆deoy¹/ 对dooy³
+| 初 | ø/ ɔ | eo/ oo | 初ceo¹/ 𢯽coo³
+| 西 | e/ a | e/ a | 西se¹/ 细sa³
+| 鸡 | ie | ie | 批pie¹
+| 沟 | eu/ au | eu/ au | 侯heu⁵/ 候hau⁷
+| 之 | i/ ei | i/ ei | 米mi²/ 味mei⁷
+| 秋、烧 | iu | iu | 球giu⁵、少ziu²
+| 孤 | u/ ou | u/ ou | 乌u¹/ 有ou⁷
+| 辉、杯 | ui | ui | 肥bui⁵、飞bui¹
+| 须 | y/ øy | y/ eoy | 猪dy¹/ 箸deoy⁷
+4+| 阳声韵
+| 山 | aŋ | ang | 郑dang⁷
+| 声 | iaŋ | iang | 惊giang¹
+| 欢 | uaŋ | uang | 碗uang²
+| 釭 | ouŋ/ ɔuŋ | oung/ ooung | 讲ɡoung²/ 困kooung³
+| 香 | yoŋ | yong footnote:[新派发为yeong [yøŋ\]。] | 养yong²
+| 光 | uoŋ | uong | 远huong⁷
+| 东 | øyŋ/ ɔyŋ | eoyng/ ooyng | 江geoyng¹/ 共gooyng⁷
+| 灯 | eiŋ/ aiŋ | eing/ aing | 点deing²/ 店daing³
+| 天 | ieŋ | ieng | 边bieng¹
+| 宾 | iŋ/ eiŋ | ing/ eing | 闽ming⁵/ 面meing³
+| 春 | uŋ/ ouŋ | ung/ oung | 总zung²/ 俊zoung³
+| 银 | yŋ/ øyŋ | yng/ eoyng | 榕yng⁵/ 颂seoyng⁷
+4+| 入声韵
+| 嘉（入声） .2+| aʔ  
+| ah footnote:[入声h与入声k，只有部分老年人可以分辨。因而，对于大部分市区人来说，在上表同一方框内的韵没有对立。然而，入声h与入声k所引发的变调是不同的，因此拼音在书写上仍作出形态音系上的区分。]
+| 客 kah⁴
+| 山（入声）            | ak  | 恰 kak⁴
+| 奇（入声） .2+| iaʔ | iah | 壁 biah⁴
+| 声（入声）            | iak | 眨 tiak⁴
+| 花（入声） .2+| uaʔ | uah | 画 uah⁸
+| 欢（入声）            | uak | 活 uak⁸
+| 歌（入声）    | oʔ/ ɔʔ | oh/ooh | 学 oh⁸/ 臒 ooh⁴
+| 釭（入声）    | ouʔ/ ɔuʔ | ouk/oouk | 滑 gouk⁸ / 骨 goouk⁴
+| 桥（入声） .2+| yoʔ | yoh footnote:[新派发为yeoh、yeok [yøʔ\]。] | 药 yoh⁸
+| 香（入声）            | yok | 弱 yok⁸
+| 过（入声） .2+| uoʔ | uoh | 沃 uoh⁴
+| 光（入声）            | uok | 越 uok⁸
+| 初（入声）    | øʔ  | eoh | 嗝 geoh⁴
+| 东（入声）    | øyʔ/ ɔyʔ | eoyk/ooyk | 读 teoyk⁸ / 触 dooyk⁴
+| 西（入声）    | eʔ | eh	| 渍 zeh⁸
+| 灯（入声）    | eiʔ/ aiʔ  | eik/aik | 特 deik⁸ / 得 daik⁴
+| 鸡（入声） .2+| ieʔ | ieh | 乜 mieh⁴
+| 声（入声）            | iek | 铁 tiek⁴
+| 之（入声） .2+| iʔ/ eiʔ  | ih/ eih | 挃 dih⁸/ 㲺 ceih⁴
+| 宾（入声）                  | ik/ eik	| 习 sik⁸/ 式 seik⁴
+| 孤（入声） .2+| uʔ/ ouʔ | uh/ ouh | 𠠔 tuh⁸/ 𢬳 touh⁴
+| 春（入声）                  | uk/ ouk	| 独 duk⁸/ 涿 douk⁴
+| 须（入声） .2+| yʔ/ øyʔ | yh/ eoyh | 无字 / 喐 eoyh⁴
+| 银（入声）                  | yk/ eoyk | 熟 syk⁸/ 肃 seoyk⁴
+4+| 伓字母
+| 伓 | ŋ | ng | 伓去ng⁷-oo³
+| 伓 | iŋ/ eiŋ | ing/eing | 伓去ing⁷-oo³
+|===
+=== 声调符号
+
+单字声调
+
+[options="header,footer,autowidth"]
+|===
+| 调类 | 上平 | 上上 | 上去 | 上入 | 下平 | 下上 footnote:[下上调无字。] | 下去 | 下入 | 轻声
+| 数字 | a¹ | a² | a³ | ah⁴ | a⁵ | -- | a⁷ | ah⁸ | a⁰
+| 五度 | a⁵⁵ | a³³ | a²¹³ | ah²⁴ | a⁵³ | -- | a²⁴² | ah⁵ | a⁰
+| 例字
+| 丹
+
+dang¹
+|胆
+
+dang²
+|旦
+
+dang³
+|答
+
+dak⁴
+|谈
+
+dang⁵
+|--
+|淡
+
+dang⁷
+|达
+
+dak⁸
+|食啊
+
+sieh⁸ ga⁰
+|===
+
+连读时产生的新声调
+
+[options="header,autowidth"]
+|===
+| 调类 | -- | --
+| 数字 | -- | --
+| 五度 | a²¹ | a²⁴
+| 例字 | 无赚 mo²¹-lang²⁴² | 本底 buong²⁴-ne³³
+|===
+
+WARNING: 请注意：闽东语拼音方案默认使用数字标示法，在需要表现具体音值时，可以使用五度标记法。但是五度标记法并不是一个可以极确切表示具体音高的方法。在每个数字的取舍上，是有争议的。我们在这里统一以陈泽平（2015）的记录为准，这是为了方便教学。
+
+=== 连读系统
+
+1) 声母类化
+
+[options="header,autowidth"]
+|===
+| 前字韵尾       | 后字声母   | 后字声母类化为 | 例词
+4+| 后字非轻声时
+| 元音或h  .3+^.^| b、p      | w            | 花瓶 hua¹-wing⁵
+| ng                        | m            | 两百 lang⁷-mah⁴
+| k                         | 不变          | 日本 nik⁸-buong²
+| 元音或h  .3+^.^| d、t、l、s | l            | 无赚 mo⁵-lang⁷
+| ng                        | n            | 本底 buong²-ne²
+| k                         | 不变          | 决定 gyok⁴-diang⁷
+| 元音或h  .3+^.^| z、c      | j footnote:[j与nj遇到介音i与y时，可以脱落。如“小姐”siu²-ia²。] | 胰皂 i⁵-joo⁷
+| ng                        | nj           | 蕹菜 ung³-njai³
+| k                         | 不变          | 仈字 beik⁴-zei⁷
+| 元音或h  .3+^.^| g、k、h
+
+和
+
+零声母
+| 脱落 | 米缸 mi²-oung¹
+| ng                        | ng           | 侬客 neoyng⁵-ngah⁴
+| k                         | 不变          | 仂囝 nik⁴-giang²
+4+| 后字轻声时
+| h 或 k     ^.^| d、t、l、s | d            | 食囇 sieh⁸ da⁰
+| h 或 k     ^.^| g、k、h
+                    和零声母 | g        | 热啊 iek⁸ ga⁰
+|===
+
+2)	韵尾类化
+
+WARNING: 请注意：韵尾类化默认不表示。在具体教学中可以按需讲解。
+
+[options="header,autowidth"]
+|===
+| 前字韵尾       | 后字声母   | 前字韵尾类化为 | 例词
+| ng      .3+^.^| b、p、m   | m            | 公妈 gum¹-ma²
+| h                        | p 或脱落       | 食饱 siep⁸-ba²
+| k                        | p             | 日本 nip⁸-buong²
+| ng      .3+^.^| d、t、l、n、s | n         | 伓是 n⁷-nei⁷
+| h                        | t 或脱落       | 蜀轮 so⁸-lung⁵
+| k                        | t             | 决定 gyot⁴-diang⁷
+| ng      .3+^.^| z、c     | nj            | 寝寝 cinj²-njing²
+| h                        | t 或脱落       | 拍鸟 pa⁴-zeu²
+| k                        | t             | 仈字 beit⁴-zei⁷
+| ng      .3+^.^| g、k、ng、h
+
+                  和
+
+                  零声母    | 不变           | 侬客 neoyng⁵-ngah⁴
+| h                        | k 或脱落       | 食去 siek⁸ go⁰
+| k                        | 不变           | 仂囝 nik⁴-giang²
+|===
+
+3)	连读变韵
+市区福州话的松韵只出现于上去、上入与下去调。即韵母表“/”右侧的韵。
+
+在出现连读时，若一个字不处在词汇末尾，并且单字音是松韵，那么它将被还原为紧韵。
+
+松紧有别的韵母，在上文的韵母表中已经出现，此处不再赘述
+
+4)	连读变调
+变调后的具体音值以五度标记法表示。下表为二字变调规律：
+
+|===
+2.2+| 前字变为 7+| 后字调
+| 上平 
+    
+a¹
+| 上上 
+
+a²
+| 上去
+
+a³
+| 上入
+
+ak⁴/ah⁴
+| 下平
+
+a⁵
+| 下去
+
+a⁷
+| 下入
+
+ak⁸/ah⁸
+
+.8+| 前字调
+| 上平 a¹ | 55 | 53 | 53 | 53 | 55 | 53 | 55
+| 上上 a² | 21 | 24 | 55 | 55 | 21 | 55 | 21
+| 上去 a³ | 55 | 53 | 53 | 53 | 55 | 53 | 55
+| 上入 ak⁴ | 21 | 24 | 55 | 55 | 21 | 55 | 21
+| 上入 ah⁴ | 55 | 53 | 53 | 53 | 55 | 53 | 55
+| 下平 a⁵ | 55 | 33 | 21 | 21 | 33 | 21 | 33
+| 下去 a⁷      | 55 | 53 | 53 | 53 | 55 | 53 | 55
+| 下入 ak⁸/ah⁸ | 55 | 33 | 21 | 21 | 33 | 21 | 33
+|===
+
+三字变调规律是，若第二字为下平或下入，那么倒数第二字先与倒数第一字按照二字变调规律变调，随后倒数第三字与变调后的倒数第二字变调；
+若第二字为其他声调，倒数第二字与倒数第一字按照二字变调规律变调，随后倒数第三字变为21。
+
+
+四字及以上的变调规律是，倒数第四字及更多音节，统一变为21，倒数第三字、第二字与第一字按三字变调规律变调。
+
+== 使用例
+下文节选自福州话课本《闽语入门》第十课。
+
+```
+soh⁸-mang⁵ ki³-yong⁷ bo³-goo³ ng⁷-ni⁷-goung² tieng¹ e⁷-sang⁵ a⁰
+昨暝       气象       报告      伓是讲          天    会晴       啊？
+zuong²-ngoung² gu³-le²-doung⁷-y²
+蒋讲            故𠲥荡雨？
+mui⁷ le⁰/ gu³-za² le⁰
+未𠲥，     故早𠲥。
+ny² mo⁵-ang³ zi²-gu² y² dooung⁷ i⁰ zi²-mang²-duai⁷
+汝  无看      这久    雨  荡      其  这满大，
+ng⁷-nuo⁸-lie³ a⁷-lau³ tieng¹ ziu⁷-sang⁵ o⁰
+伓着势         下昼     天     就晴        去。
+huk⁴-ziu¹ zu¹-uai³/ tieng¹ du¹-li⁷-zung²-nguang² na⁰
+福州       这块，     天     都是这样款             啦？
+huk⁴-ziu¹ gyng⁷-hai³/ gu³-y² si⁷-hai²-yong⁵ ki³-au⁷
+福州       近海，      故此    是海洋          气候，
+iek⁸-tieng¹ gu³-yong⁵ iek⁸ nik⁴-giang²/ buo¹-li⁵ dooung⁷ na⁷/ ziu⁷-luong⁵ no⁰ li⁰ lo⁰ 
+热天         固然       热   仂囝，        晡时      荡      囇， 就凉         落来了。
+cing¹-nieng¹ ia⁷-me⁷-ceing³/ tau³-le² mo⁵-looung⁷ guo³ suok⁴
+凊天          也儥凊，         透底      无荡         过   雪。
+cung¹-njiu¹ lang⁷-ngie³ de³-ik⁴ zoung³
+春秋         两季         第一    俊。
+```
+
+
+== 戚林八音音系与市区福州话的不同
+
+. 音系上的改变
+.. 春ung footnote:[八音字母后的注音是《戚林八音》音系拟音，不是今音。]、
+   宾ing、歌o、须y、孤u、灯eng、银yng、釭ong、
+   之i、东eong、西e、催oi、初eo、沟eu字母发生松紧变韵。
+   在上去、上入、下去调的单字变为松韵，其他声调下的字则为紧韵。
+   松韵较紧韵相比，元音开口度更大，上述字母松韵今音读为
+   oung、eing、oo、eoy、ou、aing、eoyng、ooung、ei、ooyng、a、ooy、oo、au。
+.. 香iong、桥io字母在遇到声母d、t、n、l、s、z、c时，介音变为u，并至光uong、过uo韵。
+.. 秋iu、烧ieu二字母合并；杯uoi、辉ui二字母合并。
+.. 伓ng在表示强调时，读为ing，并至宾韵。
+.. 韵尾h与韵尾k合并，读为声门塞音，但二者在连读中所引发的变调不同。
+.. 在新派市区福州话中，《戚林八音》中的山ang、嘉a、松韵西（今音a）在遇到声母z、c时，增生介音i，并至声iang、奇ia韵。
+.. 在新派市区福州话中，催oi的松韵从ooy变为uai，并至歪韵。
+. 音值上的改变
+.. 灯eng、釭ong、东eong字母紧韵发生元音裂化，读为eing、oung、eoyng；春ung、宾ing、须y、孤u、灯eng、银yng、釭ong、之i、东eong字母松韵发生元音裂化，读为oung、eing、eoy、ou、aing、eoyng、ooung、ei、ooyng。
+.. 香iong、桥io字母介音变为y，读为yong、yo。在新派市区福州话中，主元音o受介音影响高化为eo，因此读为yeong、yeo。
+.. 催oi字母中，o受到元音韵尾i影响高化为eo，i受到圆唇主元音影响变为y，因此读为eoy。
+
+== 参考文献
+* 陈立鸥、罗杰瑞 1965 《闽语入门》，旧金山州立大学。
+* 陈泽平 1998 《福州方言研究》，福建人民出版社。
+* 福州市地方志编纂委员会 2000 《福州市志·方言志》，方志出版社。
+* 李如龙、王升魁校注 2001 《戚林八音校注》，福建人民出版社。
+* 福建省地方志编纂委员会 2002 《福建省志·方言志》，方志出版社。
+* 陈泽平 2010 《19世纪以来的福州方言》，福建人民出版社。
+* 陈泽平 2015 《福州方言的结构与演变》，人民出版社。
