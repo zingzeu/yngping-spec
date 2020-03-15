@@ -1,0 +1,28 @@
+name: 生成并部署网站
+
+on: 
+ push: 
+   branches:
+     - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Node.js 
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Install Antora
+      run: |
+        npm i -g @antora/cli@2.2 \
+          @antora/site-generator-default@2.2
+    - name: Build
+      run: |
+        antora generate antora-playbook.yml
+    - name: GitHub Pages Deploy | 部署
+      uses: maxheld83/ghpages@v0.2.1
+      env:
+        BUILD_DIR: "build/site/"
+        GH_PAT: ${{ secrets.GITHUB_TOKEN }}
