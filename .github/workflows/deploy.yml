@@ -1,28 +1,27 @@
 name: 生成并部署网站
 
-on: 
-  push: 
-    branches:
-      - master
+#on: 
+#  push: 
+#    branches:
+#      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 
-      uses: actions/setup-python@v1
+    - name: Set up Node.js 
+      uses: actions/setup-node@v1
       with:
-        python-version: 3.6
-    - name: Install mkdocs
+        node-version: '12.x'
+    - name: Install Antora
       run: |
-        python -m pip install --upgrade pip
-        pip install mkdocs mkdocs-material pymdown-extensions
-        mkdocs --version
+        npm i -g @antora/cli@2.2 \
+          @antora/site-generator-default@2.2
     - name: Build
-      run: mkdocs build
-    - name: GitHub Pages Deploy | 部署
-      uses: maxheld83/ghpages@v0.2.1
-      env:
-        BUILD_DIR: "site/"
-        GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+      run: antora generate antora-playbook.yml
+    # - name: GitHub Pages Deploy | 部署
+    #   uses: maxheld83/ghpages@v0.2.1
+    #   env:
+    #     BUILD_DIR: "build/site/"
+    #     GH_PAT: ${{ secrets.GITHUB_TOKEN }}
