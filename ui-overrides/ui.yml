@@ -1,1 +1,2 @@
-static_files: [ .nojekyll, CNAME ]
+static_files:
+  - CNAME
