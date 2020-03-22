@@ -5,6 +5,8 @@
 
 include::_common_header.adoc[]
 
+本册为市区福州话分册，表示的是福州市区一带的闽东语方言。参见 link:main.html[**主方案**]。
+
 toc::[]
 
 == 市区福州话音系概述
