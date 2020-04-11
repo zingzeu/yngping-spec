@@ -204,7 +204,7 @@ dang³-si⁷ mo⁵-noh⁴ do⁵ i¹ neong⁵ siah⁸
 
 === 版本控制
 
-原则上遵循 语义化版本 https://semver.org/lang/zh-CN/
+原则上遵循《[语义化版本](https://semver.org/lang/zh-CN/)》。
 
 每次对方案文本的修订，都需要将版本号增加。同一时间只有一个版本号，**主方案**和各地**分册**始终是同一个版本号。版本号只写在**主方案**内。对各地**分册**的修改也需递增**主方案**内的版本号。
 
@@ -225,7 +225,7 @@ dang³-si⁷ mo⁵-noh⁴ do⁵ i¹ neong⁵ siah⁸
 
 === 修订方式
 
-修订通过 Github Pull Request 的方式进行。具体而言，将修改过的方案内容先提交到一个新的分支 (branch)，然后提出 Pull Request，将新分支合并到 master 分支。
+修订通过 Github Pull Request 的方式进行。具体而言，将修改过的方案内容先提交到一个新的分支（branch），然后提出 Pull Request，将新分支合并到 master 分支。
 
 每次修订需要写出修订内容摘要。
 
