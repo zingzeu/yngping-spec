@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>闽东语拼音方案规范 :: 榕拼</title>
+    <link rel="canonical" href="https://yngping.zingzeu.org/spec/v0.4.0-preview2/main.html">
+    <meta name="generator" content="Antora 2.2.0">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://yngping.zingzeu.org">榕拼</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://yngping.zingzeu.org">首页</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="spec" data-version="v0.4.0-preview2">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="main.html">榕拼规范文档</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="main.html">主方案</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">各地区方案</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="hukziu.html">福州市区 / 闽侯县 / 长乐区 / 连江城关</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">榕拼规范文档</span>
+    <span class="version">v0.4.0-preview2</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="main.html">榕拼规范文档</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="main.html">v0.4.0-preview2</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="main.html" class="home-link is-current"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="main.html">榕拼规范文档</a></li>
+    <li><a href="main.html">主方案</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/zingzeu/yngping-spec/edit/master/spec/modules/ROOT/pages/main.adoc">编辑此页</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">闽东语拼音方案规范</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>方案版本: 0.4.0-preview2</p>
+</div>
+<div class="paragraph">
+<p>修订时间: 2020 年 3 月 16 日</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+闽东语拼音方案尚初于初稿阶段，可能随时作出改动。笔者在此将拼音方案白皮书的初稿发布至网络，供小范围传阅及吸收批评意见。
+--子善
+</td>
+</tr>
+</table>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">目录</div>
+<ul class="sectlevel1">
+<li><a href="#_简介">简介</a>
+<ul class="sectlevel2">
+<li><a href="#_设计原则">设计原则</a></li>
+</ul>
+</li>
+<li><a href="#_符号定义">符号定义</a>
+<ul class="sectlevel2">
+<li><a href="#_辅音符号">辅音符号</a></li>
+<li><a href="#_元音符号">元音符号</a></li>
+<li><a href="#_声调符号">声调符号</a></li>
+</ul>
+</li>
+<li><a href="#_详细使用规则">详细使用规则</a>
+<ul class="sectlevel2">
+<li><a href="#_辅音符号使用说明">辅音符号使用说明</a></li>
+<li><a href="#_元音符号使用说明">元音符号使用说明</a></li>
+<li><a href="#_声调符号的使用说明">声调符号的使用说明</a></li>
+<li><a href="#_连字符使用说明">连字符使用说明</a></li>
+<li><a href="#_其他使用说明">其他使用说明</a></li>
+</ul>
+</li>
+<li><a href="#_使用例">使用例</a>
+<ul class="sectlevel2">
+<li><a href="#_福州市区腔">福州市区腔</a></li>
+<li><a href="#_福清城关腔">福清城关腔</a></li>
+<li><a href="#_诗巫市区腔">诗巫市区腔</a></li>
+</ul>
+</li>
+<li><a href="#_参考文献">参考文献</a></li>
+<li><a href="#_规范管理">规范管理</a>
+<ul class="sectlevel2">
+<li><a href="#_名称规范">名称规范</a></li>
+<li><a href="#_版本控制">版本控制</a></li>
+<li><a href="#_修订方式">修订方式</a></li>
+</ul>
+</li>
+<li><a href="#_之前的版本">之前的版本</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_简介"><a class="anchor" href="#_简介"></a>简介</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>本闽东语拼音方案简称“榕拼”，是用于表示福州、宁德一带闽东语的拼音方案。该方案可以支持闽东语侯官片与福宁片的所有方言。</p>
+</div>
+<div class="paragraph">
+<p>方案规范分为<strong>主方案</strong>（本文）和各地口音<strong>分册</strong>。</p>
+</div>
+<div class="paragraph">
+<p><strong>主方案</strong> 综述方案的设计理念，对符号的使用作出定义和规范，以及方案的版本控制等。</p>
+</div>
+<div class="paragraph">
+<p>各地<strong>分册</strong>细化如何将闽东语拼音方案用于表示该地的口音，提供例子，以及对该地口音特殊的用法作出说明。</p>
+</div>
+<div class="paragraph">
+<p>目前正在制作的拼音方案包括：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="hukziu.html">福州市区 / 闽侯县 / 长乐区 / 连江城关</a></p>
+</li>
+<li>
+<p>闽清坂东 / 诗巫市区（大马）</p>
+</li>
+<li>
+<p>古田城关 / 实兆远区（大马） / 红土坎区（大马） / 永平市区（大马）</p>
+</li>
+<li>
+<p>福清城关</p>
+</li>
+<li>
+<p>霞浦城关</p>
+</li>
+<li>
+<p>宁德市区</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_设计原则"><a class="anchor" href="#_设计原则"></a>设计原则</h3>
+<div class="paragraph">
+<p>设计时综合考虑兼容闽东各地口音、初学者学习成本、在电子设备上输入的方便性与作为输入法等软件的底层文本的可行性。
+令拼音可以与国际音标进行映射与转写，由此做到通过软件令拼音与国际音标实现一键切换的功能。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_符号定义"><a class="anchor" href="#_符号定义"></a>符号定义</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>闽东语拼音方案定义了辅音、元音和声调符号。辅音和元音基于国际音标 (IPA) 的宽式写法。</p>
+</div>
+<div class="sect2">
+<h3 id="_辅音符号"><a class="anchor" href="#_辅音符号"></a>辅音符号</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">国际音标</th>
+<th class="tableblock halign-left valign-top">闽东语拼音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">p</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">pʰ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">p</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">m</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">t</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">d</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tʰ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">t</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">l</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">l</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ɾ <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">s</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">s</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">θ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">th</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ʦ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">z</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ʦʰ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">k</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">g</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">kʰ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">k</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ŋ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ng</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">h</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">h</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ʔ <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">β</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">w</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">z</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">j</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nz</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nj</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">j</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">i</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">w</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">u</p></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_元音符号"><a class="anchor" href="#_元音符号"></a>元音符号</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">国际音标</th>
+<th class="tableblock halign-left valign-top">闽东语拼音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">i</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">y</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">e</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ø</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">eo</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ɛ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ee</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">œ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">oe</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">u</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">u</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">o</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">o</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ɔ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">oo</p></td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_声调符号"><a class="anchor" href="#_声调符号"></a>声调符号</h3>
+<div class="paragraph">
+<p>闽东语拼音方案中的声调可以使用数字标示法与五度标记法来标记。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+虽然闽东语拼音方案可以用来表示本字音和表层音(surface form, 即连读后的读音)。但方案中的声调符号，包括用五度标记法的表示，实际上只是对限定的调类的归类，而非对实际发音的精确描述。
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>声调名称与数字标示法的数字顺序以《戚林八音》中的名称与顺序为标准。</p>
+</div>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">调类</th>
+<th class="tableblock halign-left valign-top">上平</th>
+<th class="tableblock halign-left valign-top">上上</th>
+<th class="tableblock halign-left valign-top">上去</th>
+<th class="tableblock halign-left valign-top">上入</th>
+<th class="tableblock halign-left valign-top">下平</th>
+<th class="tableblock halign-left valign-top">下上 <sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></th>
+<th class="tableblock halign-left valign-top">下去</th>
+<th class="tableblock halign-left valign-top">下入</th>
+<th class="tableblock halign-left valign-top">轻声</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数字</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8201;&#8212;&#8201;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">例子</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a¹</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a²</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a³</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ah⁴</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a⁵</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8201;&#8212;&#8201;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a⁷</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ah⁸</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a⁰</p></td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_详细使用规则"><a class="anchor" href="#_详细使用规则"></a>详细使用规则</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_辅音符号使用说明"><a class="anchor" href="#_辅音符号使用说明"></a>辅音符号使用说明</h3>
+<div class="paragraph">
+<p>1) 闽东语拼音方案在辅音符号的使用上，始终反映实际发音。若发生连读而引起声母类化，则需要表示出变化后的声母。但韵尾类化则不须表示。</p>
+</div>
+<div class="paragraph">
+<p>在发生连读而塞音韵尾脱落时，可以视情况选择塞音韵尾符号的省略与否。譬如，实际教学中，为了强调变调的种类可以不省略已脱落的塞音韵尾。闽东语拼音方案默认不省略。</p>
+</div>
+<div class="paragraph">
+<p>在发生连读而韵尾被后字声母类化时，可以视情况选择韵尾符号的改变与否。譬如，实际教学中，为了强调实际发音可以改变在连读中被后字同化的韵尾的符号。闽东语拼音方案默认不改变。</p>
+</div>
+<div class="paragraph">
+<p>2) 声母th是声母s的变体，在二者没有对立的情况下（如福清），选择s表示[θ]。</p>
+</div>
+<div class="paragraph">
+<p>3) 由于不存在对立，福安话的半元音声母[j]、[w]以元音i与u表示。</p>
+</div>
+<div class="paragraph">
+<p>4) 在入声韵尾发生合并的情况下，若韵尾在形态音系上可以区分，则在书写上保留对立；若不能够，则按实际发音标记。若大部分h韵尾舒化，k韵尾弱化为声门塞音，则没有h韵尾的字词可以不标记入声，k韵尾保留且不作改动，小部分依然保存着的h韵尾在书写上保留符号-h。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_元音符号使用说明"><a class="anchor" href="#_元音符号使用说明"></a>元音符号使用说明</h3>
+<div class="paragraph">
+<p>1) 闽东语拼音方案在元音符号的使用上，始终反映实际发音。若因为连读或在轻声条件下使松韵变为紧韵，则写出紧韵的实际发音。</p>
+</div>
+<div class="paragraph">
+<p>2) 在没有声母的情况下，元音符号不作任何变形。不需要像普通话拼音一样，以yi、wu表示i、u。</p>
+</div>
+<div class="paragraph">
+<p>3) 在韵母没有对立的情况下，选择舌面圆唇程度与前后位置相同，但开口较小的元音符号。这是为了达到拼写上的简洁，也是为了给松紧变韵后的韵母腾出符号选择的空间。如《戚林八音》歌韵写为o不写为oo，在简写拼音的同时给市区福州话歌韵的松韵腾出符号oo；又如《戚林八音》初韵写为eo不写为oe，在简写拼音的同时给福清话初韵的松韵腾出符号oe。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_声调符号的使用说明"><a class="anchor" href="#_声调符号的使用说明"></a>声调符号的使用说明</h3>
+<div class="paragraph">
+<p>1)	闽东语拼音方案在声调符号的使用上，默认不表示变调，而是以数字标示法标记字词中的单字原调。</p>
+</div>
+<div class="paragraph">
+<p>在发生连读而引起变调时，可以视情况选择以五度标记法表示声调。譬如，实际教学中，为了强调变调的音值，可以不使用数字标示法而使用五度标记法。</p>
+</div>
+<div class="paragraph">
+<p>2)	声调符号需要小写并上标于音节的右上角。如果条件不允许，在实际交流中不小写上标也可以。</p>
+</div>
+<div class="paragraph">
+<p>3)	在实际交流中，若不产生歧义，不标记声调也可以。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_连字符使用说明"><a class="anchor" href="#_连字符使用说明"></a>连字符使用说明</h3>
+<div class="paragraph">
+<p>1) 在发生变调时，需要使用连字符“-”将发生变调的音节串联起来。</p>
+</div>
+<div class="paragraph">
+<p>以连字符“-”串联的音节，需要按照上述三条使用说明，表示出声母的类化与韵母的松紧变韵，但不一定需要以五度标记法表示变调，以数字标示法表示原调即可。</p>
+</div>
+<div class="paragraph">
+<p>在不发生变调但发生声母类化与变韵时，可以不使用连字符“-”串联音节。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_其他使用说明"><a class="anchor" href="#_其他使用说明"></a>其他使用说明</h3>
+<div class="paragraph">
+<p>1) 闽东语拼音方案是用来辅助学习闽东语发音与汉字写法的拼音，而不是一种表音文字。因此，闽东语拼音方案不使用标点符号，也没有大小写之分。若需要分隔音节，可以使用斜杠“/”。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_使用例"><a class="anchor" href="#_使用例"></a>使用例</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_福州市区腔"><a class="anchor" href="#_福州市区腔"></a>福州市区腔</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>zing¹-njeu²-iang²/ doouk⁴ bo¹-wo¹
+真鸟囝，啄菠菠。
+sang¹-ngui³ hai⁵-i⁵ e⁷-cuong³-go¹
+三岁孩儿会唱歌。
+ng⁷-nei⁷ ba⁷-ne² ga³ nu⁵ cuong³
+伓是罢奶教奴唱，
+si⁷-nu⁵ buk⁴-lo² tung¹-lung¹-ngo¹
+是奴腹老通通歌。</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>（民谣《真鸟囝》节选）</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_福清城关腔"><a class="anchor" href="#_福清城关腔"></a>福清城关腔</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>sang¹-zia³ zi²-muai³ be⁵-be⁵-iang⁵
+三只姊妹排排行，
+sing¹ seong⁷ eong⁵-ngo² kyo³ kang³-siang⁵
+身颂红袄去看城。
+lyong²-bieng¹ tu¹-le⁷ to⁵-li²-cieu³
+两边都是桃李树，
+oi³-sia¹ to⁵-li² neng⁷-ua¹-miang⁵
+爱食桃李念花名。</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>（民谣《十二月花》节选）</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_诗巫市区腔"><a class="anchor" href="#_诗巫市区腔"></a>诗巫市区腔</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>gu⁷-le² u⁷-soh⁸-lau⁵ dy¹-mo²
+旧底有蜀头猪母，
+i¹ yong² liu² sang¹-lau⁵ dy¹-iang²
+伊养了三头猪囝。
+i¹ zing⁷-tiang³ i¹ neong⁵
+伊尽疼伊侬，
+dang³-si⁷ mo⁵-noh⁴ do⁵ i¹ neong⁵ siah⁸
+但是无乇掏伊侬食。</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>（童话《三只小猪》节选）</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_参考文献"><a class="anchor" href="#_参考文献"></a>参考文献</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(待细化，需要添加具体书目)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>福州及宁德所有的方言志</p>
+</li>
+<li>
+<p>学界描写闽东语共时音系的论文及著作</p>
+</li>
+<li>
+<p>学界出版的闽东语字词典</p>
+</li>
+<li>
+<p>传教士留下的文献</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_规范管理"><a class="anchor" href="#_规范管理"></a>规范管理</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_名称规范"><a class="anchor" href="#_名称规范"></a>名称规范</h3>
+<div class="paragraph">
+<p>本方案中文名为 "闽东语拼音方案"，又名 "榕拼"。可在拉丁字母中写为 "YngPing"。用于计算机代码中时，亦可写作 "yngping"。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_版本控制"><a class="anchor" href="#_版本控制"></a>版本控制</h3>
+<div class="paragraph">
+<p>原则上遵循《<a href="https://semver.org/lang/zh-CN/">语义化版本</a>》。</p>
+</div>
+<div class="paragraph">
+<p>每次对方案文本的修订，都需要将版本号增加。同一时间只有一个版本号，<strong>主方案</strong>和各地<strong>分册</strong>始终是同一个版本号。版本号只写在<strong>主方案</strong>内。对各地<strong>分册</strong>的修改也需递增<strong>主方案</strong>内的版本号。</p>
+</div>
+<div class="paragraph">
+<p>具体而言:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>若对方案白皮书的修订不影响任何已有的使用和未来使用榕拼的文本，则只需修改修订号。</p>
+</li>
+<li>
+<p>若对方案白皮书的修订不影响任何已有对文本，但新增了新的用法，则至少需递增次版本号。（如果修订变化很大，也可以递增主版本号）</p>
+</li>
+<li>
+<p>若对方案白皮书的修订会影响现有的用法，则必须递增主版本号。</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>例如：</p>
+</div>
+<div class="paragraph">
+<p>修改已有符号的含义或用法 &#8658; 主版本号</p>
+</div>
+<div class="paragraph">
+<p>新增声母、韵母、声调符号，用于表示新的读音，而无需改动现有文本 &#8658; 次版本号。</p>
+</div>
+<div class="paragraph">
+<p>方案文本字句修订、对现有用法的澄清、排版修改、段落排列顺序修改 &#8658; 修订号</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_修订方式"><a class="anchor" href="#_修订方式"></a>修订方式</h3>
+<div class="paragraph">
+<p>修订通过 Github Pull Request 的方式进行。具体而言，将修改过的方案内容先提交到一个新的分支（branch），然后提出 Pull Request，将新分支合并到 master 分支。</p>
+</div>
+<div class="paragraph">
+<p>每次修订需要写出修订内容摘要。</p>
+</div>
+<div class="paragraph">
+<p>每次修订需要经过至少 2 人审阅（即修订提出者本人+另外一个人），才可合并到 master 分支。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_之前的版本"><a class="anchor" href="#_之前的版本"></a>之前的版本</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>在本方案白皮书规范化之前，已有的几个版本。各主要版本区别如下：</p>
+</div>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">版本</th>
+<th class="tableblock halign-left valign-top">修订时间</th>
+<th class="tableblock halign-left valign-top">修订内容摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2017 年</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">初版</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2018 年 5 月</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
+<ul>
+<li>
+<p>去除 q 入声符号，改为区分 h、k 韵尾</p>
+</li>
+<li>
+<p>新增手写方案</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2019 年 9 月</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
+<ul>
+<li>
+<p>新增 oo 韵母，用于区分 ooung212，oung212 的对立。替换先前用 a 表示的“开口较大的 o”: aung242 &#8594; ooung242, aung212 &#8594; ooung212, auk23 &#8594; oouk23。</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. /ɾ/是声母d、t、l、s在阴声韵或入声h后类化产生的声母，与声母l不形成对立。按照学界描写闽东语连读系统的习惯，与之合并。
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. /ʔ/是声门塞音韵尾，与声母h不形成对立。按照先前各类闽东语罗马字的书写习惯，与之合并。
+</div>
+<div class="footnote" id="_footnotedef_3">
+<a href="#_footnoteref_3">3</a>. 下上调无字。
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
