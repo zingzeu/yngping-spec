@@ -2,4 +2,4 @@
 
 修订时间: 2020 年 3 月 16 日
 
-WARNING: 此版本不是最新的榕拼方案，最新版请见：https://go.ydict.net/yngping-spec
+WARNING: 此版本不是最新的榕拼方案，最新版请见：link:https://go.ydict.net/yngping-spec[]

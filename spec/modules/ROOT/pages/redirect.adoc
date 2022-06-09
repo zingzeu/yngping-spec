@@ -1,3 +1,3 @@
 = 跳转
 
-点击此链接访问最新版本的榕拼规范：https://go.ydict.net/yngping-spec
+点击此链接访问最新版本的榕拼规范：link:https://go.ydict.net/yngping-spec[]
