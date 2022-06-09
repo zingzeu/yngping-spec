@@ -2,7 +2,7 @@ site:
   title: 榕拼
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://yngping.zingzeu.org/
-  start_page: spec:ROOT:main.adoc
+  start_page: spec:ROOT:redirect.adoc
 content:
   sources:
   - url: ./

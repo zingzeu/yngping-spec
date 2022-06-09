@@ -1,0 +1,3 @@
+index
+
+https://go.ydict.net/yngping-spec
