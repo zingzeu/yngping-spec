@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://yngping.zingzeu.org/spec/v0.4.0-preview2/hukziu.html</loc>
-<lastmod>2021-03-18T07:44:40.314Z</lastmod>
+<lastmod>2022-06-11T06:05:47.014Z</lastmod>
 </url>
 <url>
 <loc>https://yngping.zingzeu.org/spec/v0.4.0-preview2/main.html</loc>
-<lastmod>2021-03-18T07:44:40.314Z</lastmod>
+<lastmod>2022-06-11T06:05:47.014Z</lastmod>
+</url>
+<url>
+<loc>https://yngping.zingzeu.org/spec/v0.4.0-preview2/redirect.html</loc>
+<lastmod>2022-06-11T06:05:47.014Z</lastmod>
 </url>
 </urlset>
