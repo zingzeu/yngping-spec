@@ -23,8 +23,7 @@ jobs:
         antora generate antora-playbook.yml
         touch build/site/.nojekyll
     - name: GitHub Pages Deploy | 部署
-      # 临时fix，等待 https://github.com/maxheld83/ghpages/pull/37 合并
-      uses: bryant1410/ghpages@patch-1
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
       env:
-        BUILD_DIR: "build/site/"
-        GH_PAT: ${{ secrets.GH_PAT }}
+        branch: gh-pages
+        folder: "build/site/"
